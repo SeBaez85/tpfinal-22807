@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+
+.titulo-editar{
+   
+    font-family: 'Castoro', serif;
+    color: black;
+    background-color: #0dcaf0;
+    
+}
+
+label{
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+.bt-edit, .bt-atras{
+    font-family: 'Suez One', serif;
+    
+}

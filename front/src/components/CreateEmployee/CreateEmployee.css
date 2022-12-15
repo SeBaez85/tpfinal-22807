@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+
+.titulo-crear{
+   
+    font-family: 'Castoro', serif;
+    color: white;
+    background-color: #0d6efd;
+    
+}
+
+label{
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+.bt-crea, .bt-atras{
+    font-family: 'Suez One', serif;
+    
+}
+
