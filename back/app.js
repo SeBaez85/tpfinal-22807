@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import employeeRoutes from "../back/routes/employeeRoutes.js"
 import db from "../back/database/db.js"
+import {PORT} from "./config"
 
 const app = express();
 
@@ -24,8 +25,8 @@ try {
     console.log(error);
 }
 
-const port = 8000;
+//const port = 8000;
 
 app.listen(port, ()=>{
-    console.log(`Servidor OK en el puerto ${port}`);
+    console.log(`Servidor OK en el puerto ${PORT}`);
 });
